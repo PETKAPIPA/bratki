@@ -114,62 +114,70 @@
 
 
 @media (orientation: landscape) {
-	.search {
-		padding-top: 10px;
-		padding-bottom: 20px;
+	@media (min-width: 730px) {
+		.info__card-link {
+			max-width: 60%;
+		}
 	}
 
-	.info {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
+	@media (min-width: 930px) {
 
-	.trio {
-		flex-direction: row;
-		display: flex;
-		justify-content: space-around;
-		margin: 25px;
-	}
+		.search {
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
 
-	.info__card {
-		border-radius: 10px;
-		background-color: rgba(245, 245, 220, 0.336);
-		display: flex;
-		flex-direction: column;
-		border: solid 4px black;
-		min-width: 100%;
-		font-size: small;
-	}
+		.info {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
 
-	.info__card-image {
-		border-radius: 5px 5px 0 0;
-		border-bottom: solid 4px rgb(0, 0, 0);
-	}
+		.trio {
+			flex-direction: row;
+			display: flex;
+			justify-content: space-around;
+			margin: 25px;
+		}
 
-	.info__card-title {
-		text-align: center;
-	}
+		.info__card {
+			border-radius: 10px;
+			background-color: rgba(245, 245, 220, 0.336);
+			display: flex;
+			flex-direction: column;
+			border: solid 4px black;
+			min-width: 100%;
+			font-size: small;
+		}
 
-	.info__card-description {
-		padding-left: 10px;
-		padding-right: 2px;
-		margin-top: 0%;
-	}
+		.info__card-image {
+			border-radius: 5px 5px 0 0;
+			border-bottom: solid 4px rgb(0, 0, 0);
+		}
 
-	.info__card-link {
-		display: inline-block;
-		text-decoration: none;
-		color: inherit;
-		max-width: 25%;
-		cursor: pointer;
-	}
+		.info__card-title {
+			text-align: center;
+		}
 
-	/* .info__card-link:active {
+		.info__card-description {
+			padding-left: 10px;
+			padding-right: 2px;
+			margin-top: 0%;
+		}
+
+		.info__card-link {
+			display: inline-block;
+			text-decoration: none;
+			color: inherit;
+			max-width: 25%;
+			cursor: pointer;
+		}
+
+		/* .info__card-link:active {
 		-webkit-box-shadow: 4px 4px 8px 1px rgba(34, 60, 80, 0.2);
 		-moz-box-shadow: 4px 4px 8px 1px rgba(34, 60, 80, 0.2);
 		box-shadow: 4px 4px 8px 1px rgba(34, 60, 80, 0.2);
 	} */
 
-
+	}
 }

@@ -175,6 +175,7 @@ h1 {
 			list-style-type: none;
 			display: flex;
 			justify-content: space-around;
+			align-items: center;
 		}
 
 		.header__top-left ul li {
@@ -193,11 +194,13 @@ h1 {
 			display: flex;
 			justify-content: right;
 			align-items: center;
-			text-align: center;
 		}
 
 		.header__top-right ul li nav a {
 			width: 100%;
+
+			display: flex;
+			align-items: center;
 		}
 
 		.header__top-right a {
@@ -208,6 +211,7 @@ h1 {
 		#tg {
 			max-height: 18px;
 			padding-right: 2px;
+			padding-bottom: 2px;
 		}
 
 		#tg-box {
