@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/bratki/css/style.css">
+	<link rel="stylesheet" href="/bratki/css/search.css">
+	<link rel="shortcut icon" href="/bratki/images/logo.jpg">
+	<title>БРАТКИ</title>
+</head>
+
+<body>
+	<div class="container">
+		<header id="header">
+
+			<button class="dropdown__button dropdown" aria-expanded="false" aria-controls="list">
+				Меню
+			</button>
+
+			<ul class="dropdown__menu" id="list" aria-hidden="true">
+				<li class="dropdown__menu-item">
+					<a href="/bratki/search.html" class="dropdown__menu-link">Поиск схем</a>
+				</li>
+				<li class="dropdown__menu-item">
+					<a href="/bratki/shop.html" class="dropdown__menu-link">Записи</a>
+				</li>
+				<li class="dropdown__menu-item">
+					<a href="/bratki/index.html" class="dropdown__menu-link">О нас</a>
+				</li>
+				<li class="dropdown__menu-item">
+					<a href="https://t.me/+OM8g1cVBM-E2N2Qy" class="dropdown__menu-link">ТГК: БРАТКИ</a>
+				</li>
+			</ul>
+			<div class="header__top"> <!-- Под logo, навигация, поиск и т.д. -->
+
+				<div class="nav-menu">
+					<div class="header__top-left">
+						<ul>
+							<li>
+								<nav><a href="/bratki/search.html">
+										Поиск схем
+									</a></nav>
+							</li>
+							<li>
+								<nav><a href="/bratki/index.html">
+										О нас
+									</a></nav>
+							</li>
+							<li>
+								<nav><a href="/bratki/shop.html">
+										Другие работы
+									</a></nav>
+							</li>
+						</ul>
+					</div>
+
+					<div class="header__top-right">
+
+						<ul>
+							<li id="tg-box">
+								<nav>
+									<a href="https://t.me/+OM8g1cVBM-E2N2Qy">
+										<img id="tg" src="images/telegram-256x256.png" alt="">ТГК:
+										БРАТКИ
+									</a>
+								</nav>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<div class="search">
+			<input type="text" id="search" placeholder="Название игрушки">
+			<button id="lupa_button" type="submit" onclick="search__function()"><img id="lupa"
+					src="images/search_button.png" alt=""></button>
+		</div>
+
+		<div class="info">
+
+			<div class="trio">
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="trio">
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="trio">
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+
+				<a href="#" class="info__card-link">
+					<div class="info__card">
+						<img class="info__card-image" src="/bratki/images/krysa.png" alt="">
+						<h2 class="info__card-title">Крыса</h2>
+						<p class="info__card-description">Вязаная крыса - отличный подарок как ребенку, так и взрослому!
+							А благодаря немалому размеру (123 * 123 * 123) ее очень удобно гладить ^_^</p>
+					</div>
+				</a>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+	<script src="/bratki/js/script.js"></script>
+	<script>
+
+		let ht = document.getElementById('header').clientHeight
+
+		document.getElementById('lupa').style.height = `${ht}px`
+		document.getElementById('search').style.height = `${ht}px`
+
+		function search__function() {
+			document.querySelector('#search').value = ''
+		}
+
+		let search = document.querySelector('#search')
+		let lupa_button = document.querySelector('#lupa_button')
+
+		search.addEventListener('keypress', function search__function(e) {
+			var key = e.which || e.keyCode;
+			if (key === 13) { // код клавиши Enter
+				lupa_button.click();
+			}
+		});
+
+	</script>
+</body>
+
+</html>
