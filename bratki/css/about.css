@@ -1,0 +1,12 @@
+* {
+	box-sizing: border-box;
+}
+
+ 
+@media (orientation: landscape) {
+	@media (min-width: 520px) {
+		.about_us {
+			max-width: 80%;
+		}
+	}
+}
